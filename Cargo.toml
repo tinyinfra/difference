@@ -1,0 +1,12 @@
+[package]
+name = "fast-set"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gxhash = "3.4.1"
+getrandom = "0.2"
+
+[dev-dependencies]
+tempfile = "3.3.0"
+rand = "0.8.5"
